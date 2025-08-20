@@ -1,0 +1,31 @@
+Topics – Advanced SQL Analytics
+
+1)Window Functions in SQL:
+=========================
+Go beyond GROUP BY with window functions (ROW_NUMBER(), RANK(), DENSE_RANK(), NTILE()).
+
+Example: Find the top 3 salespersons in each region without collapsing data.
+
+2)Running Totals & Moving Averages:
+=================================
+Use SUM() OVER (ORDER BY ...) to calculate cumulative sales.
+
+Example: Monthly sales growth trend for performance tracking.
+
+3)LEAD & LAG Functions:
+======================
+Compare current row values with previous/next row.
+
+Example: Find month-over-month sales difference for each product.
+
+4)SQL CTEs (Common Table Expressions):
+===================================
+Write cleaner, modular queries using WITH.
+
+Example: Create a CTE to calculate intermediate results (like active users) and reuse it in final queries.
+
+5)Case Study: Customer Retention Analysis:
+=======================================
+Combine window functions + CTEs to analyze churned vs retained customers over months.
+
+Real-world use: SaaS platforms tracking subscription renewals.
